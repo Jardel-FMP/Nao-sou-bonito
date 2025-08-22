@@ -1,0 +1,24 @@
+header{
+    background-color:blueviolet;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.formulario{
+    border-style: solid;
+    border-radius: 30px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+body{
+    background: url(img/cartao.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+}
