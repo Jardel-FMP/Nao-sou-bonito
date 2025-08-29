@@ -5,11 +5,37 @@ header{
     font-size: 35px;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
+
 .formulario{
-    border-style: solid;
-    border-radius: 30px;
-    border-radius: 30px;
-    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    border: 3px solid rgba(168, 42, 218, 0.733);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+
+.formulario div{
+    display: flex;
+    justify-content: space-between;    
+    flex-direction:row;
+    margin: 10px;
+}
+
+.formulario label{
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    display: flex;
+    justify-content: center;
 }
 
 body{
